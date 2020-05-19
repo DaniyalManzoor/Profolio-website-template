@@ -48,3 +48,13 @@
 #slider{
     width: 100%;
 }
+
+/* ----About Us ---- */
+#about{
+    margin: 50px 0;
+    color: #2F2F2F;
+    text-align: center;
+}
+#about .btn{
+    margin: 20px 0 30px 0;
+}
