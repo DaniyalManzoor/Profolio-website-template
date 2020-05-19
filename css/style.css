@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*----- Navigation ------ */
+#nav-bar{
+    margin-top: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #FF6F00 !important;
+    margin-left: 25px;
+}
+
+.navbar-brand span.d{
+    color: #2F2F2F !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    text-transform: uppercase;
+    float: right;
+    text-align: left;
+}
+.nav-link{
+    font-weight: 700;
+    color: #2F2F2F;
+    font-size: 16px;
+}
+#nav-bar ul li a:hover{
+    color: #FF6F00;
+}
+.navbar{
+    background-color: #fff;
+}
+.navbar-toggler{
+    border: none !important;
+}
