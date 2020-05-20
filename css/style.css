@@ -5,7 +5,6 @@
 }
 /*----- Navigation ------ */
 #nav-bar{
-    margin-top: 5px;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -16,12 +15,16 @@
     color: #FF6F00 !important;
     margin-left: 25px;
 }
-
+.navbar-brand img{
+    height: 40px;
+    margin-top: -15px;
+    padding: 0;
+}
 .navbar-brand span.d{
     color: #2F2F2F !important;
 }
 .navbar-nav li{
-    padding: 0 10px;
+    padding: 20px 10px;
 }
 .navbar-nav li a {
     text-transform: uppercase;
