@@ -16,12 +16,10 @@
     margin-left: 25px;
 }
 .navbar-brand img{
+    pointer-events: none;
     height: 40px;
     margin-top: -15px;
     padding: 0;
-}
-.navbar-brand span.d{
-    color: #2F2F2F !important;
 }
 .navbar-nav li{
     padding: 20px 10px;
@@ -211,3 +209,23 @@
 .profile-pic .img-box:hover ul, .profile-pic .img-box:hover ul li{
     transition: 0.7s;
 }
+
+/* --------Promo Section ------- */
+#promo{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/promo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+#promo a{
+    color: #fff !important;
+    background-color: #FF6F00;
+    font-weight: bold;
+    padding: 10px, 30px;
+}
+/* --------- Price plane ---------- */
