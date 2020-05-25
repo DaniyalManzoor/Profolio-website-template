@@ -371,3 +371,35 @@ h1::after{
     cursor: pointer;
     transition: 0.5s;
 }
+
+
+/* ------- Get in Touch ------- */
+#contact {
+    padding: 40px 0;
+    background-color: #efefef;
+    color: #777;
+}
+#contact .contact-form{
+    padding: 15px;
+}
+#contact .btn{
+    background-color: #FF6F00;
+    color: #fff;
+}
+
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder{
+    color: #999 !important;
+}
+#contact .follow{
+    padding: 10px;
+    background-color: #fff;
+    margin: 15px;
+}
+#contact .fa{
+    margin: 10px;
+    color: #FF6F00;
+}
