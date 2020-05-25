@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+h1::after{
+    content: '';
+    background-color: #FF6F00;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
 /*----- Navigation ------ */
 #nav-bar{
     position: sticky;
@@ -96,16 +108,8 @@
     padding: 100px 0;
     text-align: center;
 }
-#services h1{
-    padding-bottom: 10px;
-}
 #services h1::after{
-    content: '';
     background-color: #efefef;
-    display: block;
-    height: 3px;
-    width: 170px;
-    margin: 20px auto 5px;
 }
 #services .services{
     margin: 40px;
@@ -140,17 +144,6 @@
     padding: 50px 0;
     color: #2F2F2F;
     text-align: center;
-}
-#team h1{
-    padding-bottom: 10px;
-}
-#team h1::after{
-    content: '';
-    background-color: #FF6F00;
-    display: block;
-    height: 3px;
-    width: 170px;
-    margin: 20px auto 5px;
 }
 #team .profile-pic{
     margin-top: 25px;
@@ -233,18 +226,6 @@
 #price{
     padding: 40px 0;
     background-color: #efefef;
-}
-#price h1{
-    text-align: center;
-    padding-bottom: 10px;
-}
-#price h1::after{
-    content: '';
-    background-color: #FF6F00;
-    display: block;
-    height: 3px;
-    width: 170px;
-    margin: 20px auto 5px;
 }
 #price .single-price{
     margin: 10px auto;
@@ -331,19 +312,6 @@
     padding: 50px 0px;
     text-align: center;
 }
-#testimonials h1{
-    text-align: center;
-    padding-bottom: 10px;
-}
-#testimonials h1::after{
-content: '';
-    background-color: #FF6F00;
-    display: block;
-    height: 3px;
-    width: 170px;
-    margin: 20px auto 5px;
-}
-
 #testimonials .row{
     margin-top: 30px;
 }
